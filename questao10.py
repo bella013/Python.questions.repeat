@@ -1,9 +1,6 @@
-num1 = int(input("Insira um número: "))
-num2 = int(input("Insira um número: "))
-while num2<num1:
-    num1 = int(input("Insira um número: "))
-    num2 = int(input("Insira um número: "))
+num1 = int(input("Insira o número inicial do intervalo:"))
+num2 = int(input("Insira o número final do intervalo: "))
 
-else:
-	for i in range(num1,num2,1):
-		print(i)
+while (num1<num2-1):
+    num1=num1+1
+    print(num1)
